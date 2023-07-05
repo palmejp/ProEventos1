@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ProEventos1.Domain\ProEventos1.Domain.csproj" />
+    <ProjectReference Include="..\ProEventos1.Persistence\ProEventos1.Persistence.csproj" />
+  </ItemGroup>
+  
+</Project>
